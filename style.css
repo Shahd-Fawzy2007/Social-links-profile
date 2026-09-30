@@ -29,7 +29,7 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.5rem;
     background-color: var(--Grey-800);
     text-align: center;
     max-width: 400px;
