@@ -46,7 +46,7 @@ body{
     font-weight: 700;
 }
 .card-header .country{
-    padding-top: 0.5rem;
+    padding-block-start: 0.5rem;
     color: var(--Green);
     font-weight: 600;
     font-size: 1rem;
@@ -55,7 +55,7 @@ body{
 .card-header .job{
     color: var(--White);
     font-weight: 400;
-    padding-top: 1.75rem;
+    padding-block-start: 1.75rem;
     font-size: 1rem;
 }
 .card-links a{
