@@ -1,0 +1,74 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+
+    --font: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Grey-900);
+    font-family: var(--font);
+    font-size: 14px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--Grey-800);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    padding: 1.5rem 0;
+    border-radius: 10px;
+}
+.card-img img{
+    max-width: 100px;
+    border-radius: 50%;
+}
+.card-header h1{
+    color: var(--White);
+    font-weight: 700;
+}
+.card-header h4{
+    padding-top: 0.5rem;
+    color: var(--Green);
+    font-weight: 600;
+
+}
+.card-header p{
+    color: var(--White);
+    font-weight: 400;
+    padding-top: 1.75rem;
+    font-size: 16px;
+}
+.card-links a{
+    text-decoration: none;
+    background-color: var(--Grey-700);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    margin: 1.5rem ;
+    color: var(--White);
+    border-radius: 6px;
+    font-weight: 700;
+}
+.card-links a:hover{
+    background-color: var(--Green);
+    color: var(--Grey-900);
+}
