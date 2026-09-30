@@ -15,7 +15,7 @@
 body{
     background-color: var(--Grey-900);
     font-family: var(--font);
-    font-size: 14px;
+    font-size: 0.87rem;
     
 }
 .container{
@@ -45,17 +45,18 @@ body{
     color: var(--White);
     font-weight: 700;
 }
-.card-header h4{
+.card-header .country{
     padding-top: 0.5rem;
     color: var(--Green);
     font-weight: 600;
+    font-size: 1rem;
 
 }
-.card-header p{
+.card-header .job{
     color: var(--White);
     font-weight: 400;
     padding-top: 1.75rem;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .card-links a{
     text-decoration: none;
